@@ -11,12 +11,12 @@ Arrows were added outside R. Discussion on the methodology below the chart.
 
 The data comes from Wikipedia with a fairly simple web scraper. Usually, a given genre's article has convenient data in its infobox, one of which is "Stylistic Origins".
 
-Here's the one found on the Drum and Bass <a href="https://en.wikipedia.org/wiki/Drum_and_bass" target="_blank">article</a> :
+Here's the one found on the Drum and Bass <a href="https://en.wikipedia.org/wiki/Drum_and_bass" target="_blank" rel="noopener noreferrer">article</a> :
 
 <img src="https://github.com/datacarvel/what-made-drum-and-bass/blob/main/dnb-wiki-infobox.png">
 
 So from there, I scraped the stylistic origins (jungle, dub, etc) along with their hyperlink to their own wiki article. After which, for each of them, I do the same thing, scraping this parent genre's own stylistic origins. 
 
-Example from the Jungle <a href="https://en.wikipedia.org/wiki/Jungle_music" target="_blank">article</a>, which is one level below DNB :
+Example from the Jungle <a href="https://en.wikipedia.org/wiki/Jungle_music" target="_blank" rel="noopener noreferrer">article</a>, which is one level below DNB :
 
 <img src="https://github.com/datacarvel/what-made-drum-and-bass/blob/main/jungle-wiki-infobox.png">
