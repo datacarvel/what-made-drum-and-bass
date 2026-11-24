@@ -7,6 +7,12 @@ Must be read from the outer ring to the center. Some music genres are present mo
 
 # Where does the data come from?
 
-The data comes from Wikipedia. Usually, a given genre's article has convenient data in its infobox, one of which is "Stylistic Origins".
+The data comes from Wikipedia with a fairly simple web scraper. Usually, a given genre's article has convenient data in its infobox, one of which is "Stylistic Origins".
 
+Here's the one found on the Drum and Bass article :
 
+<img src="https://github.com/datacarvel/what-made-drum-and-bass/blob/main/dnb-wiki-infobox.png">
+
+So from there, I scraped the stylistic origins (jungle, dub, etc) along with their hyperlink to their own wiki article. After which, for each of them, I do the same thing, scraping this parent genre's own stylistic origins. Example of the infobox for Jungle :
+
+<img src="https://github.com/datacarvel/what-made-drum-and-bass/blob/main/jungle-wiki-infobox.png">
